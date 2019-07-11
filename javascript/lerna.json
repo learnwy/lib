@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "build/node_modules/*"
+  ],
+  "version": "0.0.2"
+}
