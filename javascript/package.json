@@ -1,0 +1,40 @@
+{
+  "name": "learnwy",
+  "private": true,
+  "workspaces": [
+    "node",
+    "web",
+    "common",
+    "."
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@learnwy/common": "^0.0.1",
+    "@learnwy/node": "^0.0.1",
+    "@learnwy/web": "^0.0.1",
+    "@types/node": "^12.6.2",
+    "@types/rollup": "^0.54.0",
+    "@types/rollup-plugin-node-builtins": "^2.1.1",
+    "@types/rollup-plugin-node-globals": "^1.4.0",
+    "lerna": "^3.13.4",
+    "rollup": "^1.16.7",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "ts-node ./scripts/build.ts",
+    "test": "node ./scripts/test.js"
+  },
+  "author": "learnwy",
+  "license": "GPL-3.0",
+  "description": ""
+}

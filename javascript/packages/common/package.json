@@ -1,0 +1,11 @@
+{
+  "name": "@learnwy/common",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.esm.js",
+  "scripts": {
+    "test": "node ./scripts/test.js"
+  },
+  "author": "learnwy",
+  "license": "GPL-3.0"
+}
