@@ -1,3 +1,6 @@
 /node_modules/
 /packages/*/node_modules/
-/build/
+# because lerna publish should add publish path to git;
+# /build/
+/lerna-debug.log
+/yarn-error.log

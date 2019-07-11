@@ -1,0 +1,1 @@
+{"version":3,"file":"index.amd.js","sources":["../../packages/web/src/index.ts"],"sourcesContent":["export const version = \"0.0.1\";"],"names":[],"mappings":";;KAAa,OAAO,GAAG,OAAO;;;;;;;;;;;;"}

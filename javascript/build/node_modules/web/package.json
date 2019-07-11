@@ -1,0 +1,14 @@
+{
+  "name": "@learnwy/web",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.umd.js",
+  "scripts": {
+    "test": "node ./scripts/test.js"
+  },
+  "author": "learnwy",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@learnwy/common": "^0.0.1"
+  }
+}
